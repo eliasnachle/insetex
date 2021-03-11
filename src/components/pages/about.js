@@ -1,7 +1,6 @@
 import React        from 'react';
 import { Link }     from 'react-router-dom';
 import {ClientsImg} from './ClientsImg';
-import CountUp from 'react-countup';
 
 
 export default function About() {

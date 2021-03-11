@@ -15,10 +15,6 @@ import Limpeza                                    from './components/pages/limpe
 import Client                                     from './components/pages/client';
 
 function App() {
-  
-  const reloadPage = () => {
-    window.location.reload();
-  };
 
   return(
     <Router >

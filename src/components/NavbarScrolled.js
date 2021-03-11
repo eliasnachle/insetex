@@ -9,7 +9,6 @@ import { IoMdMenu, IoMdClose }  from 'react-icons/io';
 function NavbarScrolled() {
     const [click, setClick]         = useState(false);
     const [dropdown, setDropdown]   = useState(false);
-    const [navbar, setNavbar]       = useState(false);
     
     const handleClick       = () => {
         document.body.classList.toggle('menu-opened');
@@ -52,10 +51,9 @@ function NavbarScrolled() {
                     <li className="nav-item" 
                     onClick={() => setDropdown(!dropdown)}
                     onMouseEnter={onMouseEnter}
-                    onMouseLeave={onMouseLeave}
-                    >
+                    onMouseLeave={onMouseLeave} >
                         <Link className="nav-links scrolled" >
-                            Serviços <i className={navbar ? 'fas fa-caret-down scrolled': 'fas fa-caret-down'} />
+                            Serviços <i className='fas fa-caret-down scrolled' />
                         </Link>
                         {dropdown && <Dropdown closeMobileMenu={closeMobileMenu} />}
                     </li>
@@ -75,9 +73,9 @@ function NavbarScrolled() {
                     </Link>
                     </li>
                 </ul>
-                    <button className="btn scrolled">
+                    <Button className="btn scrolled">
                         <Link to='/area-do-cliente' >Área do Cliente</Link>
-                    </button>
+                    </Button>
             </nav>
         </>
     )

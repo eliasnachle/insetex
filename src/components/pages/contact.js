@@ -1,6 +1,5 @@
 import React        from 'react';
 import { Link }     from 'react-router-dom';
-import {ClientsImg} from './ClientsImg';
 import supportt     from '../../imgs/support.svg';
 import './child.css';
 
@@ -52,7 +51,7 @@ export default function Contact() {
                 <Link>Orçamento</Link>
             </div>
             <div className="contact-img">
-                <img src={supportt} width="150em" />
+                <img src={supportt} width="150em" alt="Suporte" />
             </div>
         </div>
         </>

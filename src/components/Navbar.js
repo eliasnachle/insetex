@@ -45,7 +45,7 @@ function Navbar() {
         <>  
             <nav className={navbar ? 'navbar scrolled' : 'navbar'} >
                 <div className="navbar-container container">
-                    <Link to='/' className={navbar ? 'navbar-logo scrolled' : 'navbar-logo' }>
+                    <Link to='/home' className={navbar ? 'navbar-logo scrolled' : 'navbar-logo' }>
                         <a alt='logo' className="nav-logo" />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
