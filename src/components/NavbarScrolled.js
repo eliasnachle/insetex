@@ -36,7 +36,7 @@ function NavbarScrolled() {
             <nav className="navbar scrolled" >
                 <div className="navbar-container container">
                     <Link to='/' className="navbar-logo scrolled">
-                        <a alt='logo' className="nav-logo" />
+                        <i alt='logo' className="nav-logo" />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         {click ? <IoMdClose/> : <IoMdMenu/>}

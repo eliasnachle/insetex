@@ -58,14 +58,14 @@ export default function Home() {
                             return(
                                 <div className="icon-service">
                                     <Link to={item.link}>
-                                        <a className={classes.root}>
+                                        <i className={classes.root}>
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox={item.viewBox} width="65" height="65">
                                             <path d={item.svgPath}                                            
                                             transform={item.svgTransform}/>
                                             <path d={item.svgPath2}                                            
                                             transform={item.svgTransform2}/>
                                             </svg>
-                                        </a>
+                                        </i>
                                     </Link>
                                     <Link to={item.link}>
                                         <h2>{item.title}</h2>
