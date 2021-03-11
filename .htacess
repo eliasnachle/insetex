@@ -1,0 +1,2 @@
+ RewriteCond %{HTTPS} !on
+ RewriteRule (.*) https://example.com%{REQUEST_URI} [L,R=301] 
