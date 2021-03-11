@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+ RewriteCond %{HTTPS} !on
+ RewriteRule (.*) https://example.com%{REQUEST_URI} [L,R=301] 
+</IfModule>
