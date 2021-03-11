@@ -1,0 +1,26 @@
+.btn-contact{
+    transition: 0.6s all;
+    padding: 0.5em;
+    border-radius: 3px;
+    color: var(--white);
+    cursor: pointer;
+    background-color: transparent;
+    width: 10em;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+    border: 1.9px solid;
+    font-size: 1.2em;
+}
+.btn-contact:hover{
+    transition: 0.6s all;
+    color: var(--white);
+    background-color: var(--primary);
+    width: 10em;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+    border: 1.9px solid;
+    font-size: 1.2em;
+    
+}

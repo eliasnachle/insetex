@@ -1,0 +1,22 @@
+:root{
+    --primary:   #30aded;
+    --blue:      #2b5ba2;
+    --white:     #fff;
+    --gray:      #363636;
+    --black:     #161616;
+    --midblack:  #242424;
+    --lightblue: #535862;
+}
+
+.btn{
+    padding: 0.6em;
+    border-radius: 3px;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+    background-color: var(--primary);
+    width: 10em;
+    font-weight: 600;
+    outline:none;
+    margin-right: 10px;
+}

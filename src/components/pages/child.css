@@ -1,0 +1,367 @@
+.header-child > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 4.5em;
+    letter-spacing: 2px;
+    color: var(--white);
+    padding: 3em 2em;
+    text-align: center;
+    text-shadow: -1px 0px 3px var(--black);
+}
+
+.container-service {
+    padding: 5em 2em;
+    justify-content: center;
+    display: flex;
+}
+
+.content-service{
+    max-width: 70em;
+    text-align: left;
+}
+
+.content-service > h3{
+    padding: 15px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--midblack);
+    margin-top: 50px;
+}
+
+.content-service > h2{
+    padding: 15px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.7em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--midblack);
+}
+.content-service > p{
+    white-space: pre-line;
+    color: var(--lightblue);
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    font-size: 0.95em;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.content-service > img {
+    float: left;
+    width: 45%;
+    margin: 210px 0;
+    margin-right: 45px;
+}
+
+.desinsetizacao{
+    background-image: url('../../imgs/header_child.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    position: relative;
+}
+
+.orcamento-ads{
+    background-image: url('../../imgs/orcamento.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25em;
+}
+
+.container-ads{
+    text-align: center;
+    padding: 5em 25px;
+}
+
+.container-ads > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 4em;
+    letter-spacing: 1.5px;
+    color: var(--white);
+}
+.container-ads > p {
+    margin: 1rem 0;
+    font-size: 0.85em;
+    color: var(--white);
+    white-space: pre-line;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.container-ads > a {
+    background: var(--blue);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    border: none;
+    padding: 11px 20px;
+    letter-spacing: 0.5px;
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.5s all;
+    outline: none;
+    text-decoration: none;
+}
+
+.container-ads > a:hover {
+    transition: 0.5s all;
+    background:  var(--white);
+    color: var(--blue);
+
+}
+
+.container-about{
+    padding: 5em 2em;
+    justify-content: center;
+    display: grid;
+}
+.content-about{padding: 3em 0;}
+.content-about > h1{
+    padding: 1.5rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.2em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--midblack);
+}
+.content-about > p{
+    max-width: 90em;
+    white-space: pre-line;
+    color: var(--lightblue);
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    font-size: 0.95em;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.content-about > p > strong{font-weight: 600;}
+.mvv-child{
+    text-align:center;
+    display: inline-block;
+    margin-left: 6em;
+}
+.mvv-text > h2{
+    padding: 0.2em;
+    font-size: 0.95em;
+    color: var(--midblack);
+    font-weight: 700;
+    font-family: 'Nunito Sans';
+}
+.mvv-text > p{
+    font-size: 0.85em;
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--lightblue);
+    white-space: pre-line;
+    line-height: 21px;
+    letter-spacing: 0.45px;
+}
+
+.mvv-svg > svg {
+    padding: 1em 1em;
+    fill: var(--primary);
+}
+.about-info{
+    background-image: url('../../imgs/about_us.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 15em;
+}
+.content-info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3.5em;
+
+}
+.info-svg{display: inline-block;}
+.info-svg  > svg{
+    fill:var(--white);
+    margin-right: 1.5em;
+}
+.line{
+    border-left: 2px solid white;
+    border-radius: 150px;
+    height: 4em;
+    margin-right: 1.2em;
+    display: inline-block;
+}
+.info-text{display: inline-block;}
+.info-text > h3{
+    color: var(--white);
+    font-size: 3.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.info-text h3 > span{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.4em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.info-text > span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: var(--white);
+}
+.info-item{
+    display: inline-block;
+}
+
+.content-clients{
+    display: grid;
+    justify-content: center;
+    padding: 5em 1em;
+}
+.content-clients > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--midblack);
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.clients-img{
+    max-width: 60em;
+    text-align: center;
+}
+.clients-img > img {
+    width: 10em;
+    margin: 0.1em 5em;
+}
+.container-contact{
+    display: flex;
+    justify-content: center;
+    padding: 6em 0;
+}
+.content-contact{
+    padding: 5em 1em;
+    display: grid;
+    justify-content: center;
+}
+.content-contact > h1{
+    padding: 2em 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--midblack);
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+.content-contact > p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+    color: var(--lightblue);
+    margin-bottom: 5em;
+}
+.content-contact > a {
+    padding: 15px;
+    border-radius: 2px;
+    background: var(--primary);
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 1em;
+    text-align: center;
+    display: table;
+    transition: 0.5s all;
+}
+.content-contact > a:hover{
+    transition: 0.5s all;
+    background: rgb(12, 48, 124);
+    color: var(--primary);
+}
+.contact-icons {
+    display: grid;
+    padding: 11em 5em 0;
+}
+.contact-img{
+    float: right;
+    margin-left: 5em;
+}
+.icon-contact{
+    text-align: center;
+}
+.contact-img > img {
+    width: 45em;
+    max-width: 45em;
+}
+.contact-svg > svg{
+    fill: var(--primary);
+}
+.contact-info {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: var(--midblack);
+    text-decoration: none;
+    white-space: pre-line;
+}
+.contact-info > a {text-decoration:none;color: var(--midblack);}
+@media screen and (max-width: 1530px){
+    .contact-img > img {padding: 5em 0;max-width: 30em;}
+    .contact-img {margin-left: 2em;}
+    .contact-icons{padding: 11em 1em 0;}
+}
+@media screen and (max-width: 1120px){
+    .mvv-child{margin-left: 3em;}
+    .contact-img >img {padding: 9em 0;max-width: 15em;}
+}
+@media screen and (max-width: 1024px){
+    .content-service > img {display: none;}
+    .content-service{max-width: 50em;}
+    .content-service > h2 {font-size: 2em;}
+    .mvv-child{margin-left: 2em;}
+}
+@media screen and (max-width: 1010px){
+    .clients-img {max-width: 40em;text-align: center;}
+}
+@media screen and (max-width: 980px){
+    .content-info {display: grid;justify-content: space-evenly;padding: 2.5em;}
+    .info-item{margin: 1em;}
+    .about-info{height: 30em;}
+    .content-mvv {display: grid;}    
+    .contact-img{display:none;}
+}
+@media screen and (max-width: 920px){
+    .header-child > h1{font-size: 2.8em;padding:4em 0;}
+    .mvv-child{margin-left: 1em;}
+}
+@media screen and (max-width: 690px){
+    .container-ads > h1{font-size: 3em;}
+    .container-contact{display:grid;padding:0;}
+    .contact-icons{padding: 7em 1em 0;}
+    .content-contact{padding: 0 1em;}
+}
+@media screen and (max-width: 540px){
+    .header-child > h1{font-size: 2em;padding:6em 0;}
+    .container-ads > h1{font-size: 2em;}   
+}
+@media screen and (max-width: 430px){
+    .info-text > span {font-size: 0.8em;}
+    .info-text > h3 {font-size: 1.5em;}
+    .content-info {padding: 5.5em 2px;}
+    .about-info {height: 30em;}
+}
