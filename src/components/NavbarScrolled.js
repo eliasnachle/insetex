@@ -1,5 +1,4 @@
 import React, { useState}       from 'react';
-import Button                   from './Button';
 import { Link }                 from 'react-router-dom';
 import './Navbar.css';
 import Dropdown                 from './Dropdown';
@@ -73,9 +72,9 @@ function NavbarScrolled() {
                     </Link>
                     </li>
                 </ul>
-                    <Button className="btn scrolled">
+                    <button className="btn scrolled">
                         <Link to='/area-do-cliente' >Área do Cliente</Link>
-                    </Button>
+                    </button>
             </nav>
         </>
     )

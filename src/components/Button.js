@@ -19,7 +19,7 @@ import './Dropdown.css';
 
     return(
         <Link to='/area-do-cliente'>
-            <button className={btn ? 'btn scrolled' : 'btn' }>
+            <button className={btn ? 'btn' : 'btn-scrolled'  }>
                 Área do Cliente
             </button>
         </Link>

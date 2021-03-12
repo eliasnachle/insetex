@@ -17,7 +17,7 @@ import Client                                     from './components/pages/clien
 function App() {
 
   return(
-    <Router >
+    <Router forceRefresh>
       <div className="container">
       <Switch >
         <Route exact path='/servicos/desentupimento'>

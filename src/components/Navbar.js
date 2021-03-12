@@ -10,7 +10,7 @@ function Navbar() {
     const [click, setClick]         = useState(false);
     const [dropdown, setDropdown]   = useState(false);
     const [navbar, setNavbar]       = useState(false);
-    
+
     const handleClick       = () => {
         document.body.classList.toggle('menu-opened');
         setClick(!click);
@@ -63,9 +63,9 @@ function Navbar() {
                     onMouseEnter={onMouseEnter}
                     onMouseLeave={onMouseLeave}
                     >
-                        <Link className={navbar ? 'nav-links scrolled' : 'nav-links' } >
+                        <li className={navbar ? 'nav-links scrolled' : 'nav-links' } >
                             Serviços <i className={navbar ? 'fas fa-caret-down scrolled': 'fas fa-caret-down'} />
-                        </Link>
+                        </li>
                         {dropdown && <Dropdown closeMobileMenu={closeMobileMenu} />}
                     </li>
                     <li className='nav-item'>
@@ -84,7 +84,7 @@ function Navbar() {
                     </Link>
                     </li>
                 </ul>
-                    <Button className={navbar ? 'btn scrolled' : 'btn' }/> 
+                    <Button /> 
             </nav>
         </>
     )

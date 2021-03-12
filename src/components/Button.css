@@ -20,3 +20,21 @@
     outline:none;
     margin-right: 10px;
 }
+
+.btn-scrolled{
+    padding: 0.6em;
+    border-radius: 3px;
+    border: none;
+    color: var(--primary);
+    cursor: pointer;
+    background-color: var(--white);
+    width: 10em;
+    font-weight: 600;
+    outline:none;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 960px){
+    .btn{display:none;}
+    .btn-scrolled{display:none;}
+}

@@ -31,7 +31,7 @@ export default function Home() {
     const classes = useStyles();
     document.title = 'Insetex - Home'
     return(
-        <>
+        <> 
             <Whatsapp />
             <div className='home'>
                 <div className='container-home'>
