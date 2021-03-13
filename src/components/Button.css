@@ -1,6 +1,7 @@
 :root{
     --primary:   #30aded;
     --blue:      #2b5ba2;
+    --darkblue:  #01293d;
     --white:     #fff;
     --gray:      #363636;
     --black:     #161616;
@@ -9,26 +10,26 @@
 }
 
 .btn{
-    padding: 0.6em;
-    border-radius: 3px;
+    padding: 0.8em;
+    border-radius: 40px;
     border: none;
     color: var(--white);
     cursor: pointer;
     background-color: var(--primary);
-    width: 10em;
+    width: 11em;
     font-weight: 600;
     outline:none;
     margin-right: 10px;
 }
 
 .btn-scrolled{
-    padding: 0.6em;
-    border-radius: 3px;
+    padding: 0.8em;
+    border-radius: 40px;
     border: none;
     color: var(--primary);
     cursor: pointer;
     background-color: var(--white);
-    width: 10em;
+    width: 11em;
     font-weight: 600;
     outline:none;
     margin-right: 10px;

@@ -7,6 +7,7 @@ import Cbutton          from './button-contact';
 import '../../App.css';
 import './home.css';
 import Whatsapp       from '../whatsapp';
+import homee          from '../../imgs/home.svg';
 
 const ColorPrimary = "rgba(0,156,255.57)";
 const useStyles = makeStyles((theme) => ({
@@ -31,18 +32,19 @@ export default function Home() {
     const classes = useStyles();
     document.title = 'Insetex - Home'
     return(
-        <> 
+        <>  
             <Whatsapp />
             <div className='home'>
                 <div className='container-home'>
                     <div className="content-home">
-                        <strong>{`Insetex`}</strong>
-                        <h1>{`Controle Tec de Insetos`}</h1>
-                        <p>{`Talk To Our Experts and Get Your Dream Home Done.If you dream of designing
-                         a new home that takes full advantage of the unique geography and 
-                         views of land that you love`}</p>
+                        <h1>{`Insetex Controle 
+                        Tecnológico de Insetos`}</h1>
+                        <p>{`Talk To Our Experts and Get Your Dream Home Done.If you dream of designing a 
+                        new home that takes full advantage of the unique geography and views of land 
+                        that you love`}</p>
                         <button className='btn-home'>SAIBA MAIS</button>
                     </div>
+                    <img src={homee} alt="Imagem"/>
                 </div>
              </div>
             <div className='test'>  

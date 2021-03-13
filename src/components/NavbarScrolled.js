@@ -51,9 +51,9 @@ function NavbarScrolled() {
                     onClick={() => setDropdown(!dropdown)}
                     onMouseEnter={onMouseEnter}
                     onMouseLeave={onMouseLeave} >
-                        <Link className="nav-links scrolled" >
+                        <li className="nav-links scrolled" >
                             Serviços <i className='fas fa-caret-down scrolled' />
-                        </Link>
+                        </li>
                         {dropdown && <Dropdown closeMobileMenu={closeMobileMenu} />}
                     </li>
                     <li className='nav-item'>

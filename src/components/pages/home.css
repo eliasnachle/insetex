@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Poppins:wght@400;500&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Nunito+Sans:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -19,32 +19,35 @@
   }
   .content-home{
     width: 100%;
-    left: 10%;
-    position: relative;
+    padding: 8em 5em;
+    top: 0;
+    position: absolute;
     white-space: pre-line;
+    z-index: 9;
   }
-  .content-home >strong{
-    text-transform: uppercase;
-    font-family: 'Montserrat',sans-serif;
-    font-size: 2.2em;
-    color: var(--primary);
-    font-weight: 900;
+  .container-home > img{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 90%;
   }
+
   .content-home >h1{
-    text-transform: uppercase;
-    font-family: 'Montserrat',sans-serif;
-    font-size: 2.2em;
-    color: var(--white);
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 2.7em;
+    color: var(--darkblue);
     font-weight: 900;
   }
   .content-home >p{
-    font-family: 'Open Sans',sans-serif;
-    font-size: 0.45em;
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: 600;
+    font-size: 0.5em;
     letter-spacing: 0.2px;
-    color: var(--white);
+    color: var(--darkblue);
     max-width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
   }
   
   .content-home > h1 > strong {
@@ -59,23 +62,23 @@
   }
 
 .btn-home{
-    background: transparent;
-    padding: 10px;
-    border: 1.5px solid var(--white);
-    border-radius: 5px;
-    width: 11em;
+    background: var(--darkblue);
+    padding: 13px;
+    border: 1.5px solid var(--darkblue);
+    border-radius: 40px;
+    width: 13em;
     color: var(--white);
     cursor: pointer;
     letter-spacing: 1.8px;
-    font-family: 'Montserrat',sans-serif;
-    font-weight: 400;
-    font-size: 12px;
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: 700;
+    font-size: 13px;
     outline:none;
     transition: 0.3s;
 }
 .btn-home:hover{
     background: var(--white);
-    color: var(--primary);
+    color: var(--darkblue);
 }
 
 .container-services {
