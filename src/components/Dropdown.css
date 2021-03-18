@@ -46,6 +46,10 @@
       font-size: 1em;
       font-weight: 600;
       letter-spacing: 0.6px;
+      text-align: left;
+      margin-left: 3em;
+      border-bottom: 0.5px solid #e4e4e4;
+      width: 75%;
     }
     .btn{display: none;}
   }

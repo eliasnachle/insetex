@@ -87,6 +87,7 @@
     color: var(--white);
 }
 .container-ads > p {
+    font-family: 'Nunito Sans', sans-serif;
     margin: 1rem 0;
     font-size: 0.85em;
     color: var(--white);
@@ -121,52 +122,62 @@
 .container-about{
     padding: 5em 2em;
     justify-content: center;
-    display: grid;
+    display: block;
 }
-.content-about{padding: 3em 0;}
+.content-about{padding: 3em 5em;}
 .content-about > h1{
     padding: 1.5rem 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    font-size: 3.2em;
+    font-size: 3.5em;
     letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: var(--midblack);
+    color: var(--darkblue);
 }
 .content-about > p{
-    max-width: 90em;
+    max-width: 55em;
     white-space: pre-line;
     color: var(--lightblue);
     line-height: 27px;
     letter-spacing: 0.2px;
-    font-size: 0.95em;
+    font-size: 0.9em;
     font-family: 'Nunito Sans', sans-serif;
 }
 .content-about > p > strong{font-weight: 600;}
+.content-about > img{
+    width: 50%;
+    float: right;
+    margin-top: -40em;
+}
+.content-mvv {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 10em;
+}
 .mvv-child{
-    text-align:center;
+    text-align: center;
     display: inline-block;
-    margin-left: 6em;
+    margin-right: 6em;
 }
 .mvv-text > h2{
     padding: 0.2em;
-    font-size: 0.95em;
-    color: var(--midblack);
+    font-size: 1em;
+    color: var(--darkblue);
     font-weight: 700;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito';
 }
 .mvv-text > p{
-    font-size: 0.85em;
+    font-size: 0.9em;
     font-family: 'Nunito Sans', sans-serif;
     color: var(--lightblue);
     white-space: pre-line;
-    line-height: 21px;
+    line-height: 23px;
+    font-weight: 400;
     letter-spacing: 0.45px;
 }
 
 .mvv-svg > svg {
     padding: 1em 1em;
-    fill: var(--primary);
+    fill: var(--darkblue);
 }
 .about-info{
     background-image: url('../../imgs/about_us.png');
@@ -225,12 +236,11 @@
     padding: 5em 1em;
 }
 .content-clients > h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 3.2em;
     letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: var(--midblack);
+    color: var(--darkblue);
     text-align: center;
     padding-bottom: 1em;
 }
@@ -255,12 +265,11 @@
 }
 .content-contact > h1{
     padding: 2em 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 2.5em;
     letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: var(--midblack);
+    color: var(--darkblue);
     padding-bottom: 0.5em;
     text-align: center;
 }
@@ -289,7 +298,7 @@
 }
 .content-contact > a:hover{
     transition: 0.5s all;
-    background: rgb(12, 48, 124);
+    background: var(--darkblue);
     color: var(--primary);
 }
 .contact-icons {
@@ -319,15 +328,78 @@
     text-decoration: none;
     white-space: pre-line;
 }
-.contact-info > a {text-decoration:none;color: var(--midblack);}
+.contact-info > a {
+    text-decoration:none;
+    color: var(--midblack);
+    font-family: 'Nunito', sans-serif;
+}
+.container-orcamento{
+    padding: 7em 2em;
+}
+.content-orcamento{
+    text-align: center;
+}
+.content-orcamento > h2{
+    color: var(--darkblue);
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+.content-orcamento > p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--lightblue);
+    white-space: pre-line;
+    margin-top: 0.5em;
+}
+
+input[type=checkbox] + label{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 3px;
+    background: var(--darkblue);
+    outline: none;
+    color: red;
+}
+input[type=checkbox]:checked + label{
+    content: "";
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../imgs/check.png);
+    background-size: contain;
+    background-color: var(--primary);
+    color: var(--primary);
+}
+
+@media screen and (max-width: 1700px){
+    .content-about > img {
+        width: 40%;
+        float: right;
+        margin-top: -35em;
+    }
+}
 @media screen and (max-width: 1530px){
     .contact-img > img {padding: 5em 0;max-width: 30em;}
     .contact-img {margin-left: 2em;}
     .contact-icons{padding: 11em 1em 0;}
+    .content-about > img {
+        width: 40%;
+        float: right;
+        margin-top: -30em;
+    }
+    .content-about > p {max-width: 45em;}
+}
+@media screen and (max-width: 1300px){
+    .content-about > p {max-width: 37em;}
 }
 @media screen and (max-width: 1120px){
     .mvv-child{margin-left: 3em;}
     .contact-img >img {padding: 9em 0;max-width: 15em;}
+    
+}
+@media screen and (max-width: 1080px){
+    .content-about >img {display: none;}
+    .content-about > p {max-width: 50em;}
 }
 @media screen and (max-width: 1024px){
     .content-service > img {display: none;}

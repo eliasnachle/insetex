@@ -1,6 +1,7 @@
 import React        from 'react';
 import { Link }     from 'react-router-dom';
 import {ClientsImg} from './ClientsImg';
+import about          from '../../imgs/about.svg';
 
 
 export default function About() {
@@ -9,20 +10,23 @@ export default function About() {
         <div className="container-about">
             <div className="content-about">
                 <h1>História</h1>
-                <p>{` Singularizados, remodelamos o sistema atual no `}<strong>controle de pragas urbanas</strong>{`, visto que trazemos três décadas de experiência, possuímos as mais novas tecnologias
-                    para detecção das pragas e aplicação dos produtos, aplicamos metodologia de controle e extermínio adquiridos com pesquisas em laboratório próprio e utilizamos os 
-                    melhores produtos disponíveis e licenciados do mercado brasileiro visando o `}<strong>combate eficaz das pragas e vetores urbanos</strong>{`.
+                <p>{` Singularizados, remodelamos o sistema atual no `}<strong>controle de pragas urbanas</strong>{`, visto que trazemos três décadas de experiência, possuímos as mais novas tecnologias para detecção das pragas e aplicação dos produtos, aplicamos metodologia de controle e extermínio adquiridos com pesquisas em laboratório próprio e utilizamos os  melhores produtos disponíveis e licenciados do mercado brasileiro visando o `}
+                <strong>combate eficaz das pragas e vetores urbanos</strong>
+                {`.
+                
+                Filiados e licenciados aos órgãos e instituições competentes, prestamos serviços em conformidade com as diretrizes estabelecidas a nós pela`}<strong>O.M.S. (Organização Mundial da Saúde)</strong> {`,`}<strong>ANVISA (Agencia Nacional de Vigilância Sanitária)</strong>{` e `}<strong>ABNT (Associação Brasileira de Normas Técnicas)</strong>
+                
+                {`. 
 
-                    Filiados e licenciados aos órgãos e instituições competentes, prestamos serviços em conformidade com as diretrizes estabelecidas a nós pela 
-                    `}<strong>O.M.S. (Organização Mundial da Saúde)</strong> {`,`}<strong>ANVISA (Agencia Nacional de Vigilância Sanitária)</strong>{` e `}<strong>ABNT (Associação Brasileira de Normas Técnicas)</strong>{`. 
-
-                    Nossas equipes administrativa, laboratorial e operacional são altamente treinadas e, assim, apresentamos sempre uma excelente experiência no cumprimento dos nossos 
-                    contratos. Orgulhamo-nos de proporcionarmos um dos mais eficientes programas de assistência gestora para o plano de saúde ambiental, com alto custo beneficio e 
-                    metodologia que requer reduzidas mudanças em seu ambiente. Buscamos a satisfação plena e íntegra dos nossos clientes em todos os quesitos, com transparência e 
-                    sempre seguindo o nosso lema: “Serviços com `}<strong>Eficiência</strong>{`, `}<strong>Eficácia</strong>{` e`} <strong> Efetividade</strong>{`”, oferecemos o que realmente é necessário em cada caso específico, estudando-o para 
-                    reduzir significativamente os gastos com produtos e serviços desnecessários, garantindo a solução no controle e `}<strong>eliminação das pragas e vetores</strong>{`.`}</p>
-            </div>
-            <div className="content-mvv">
+                Nossas equipes administrativa, laboratorial e operacional são altamente treinadas e, assim, apresentamos sempre uma excelente experiência no cumprimento dos nossos 
+                contratos. Orgulhamo-nos de proporcionarmos um dos mais eficientes programas de assistência gestora para o plano de saúde ambiental, com alto custo beneficio e 
+                metodologia que requer reduzidas mudanças em seu ambiente. Buscamos a satisfação plena e íntegra dos nossos clientes em todos os quesitos, com transparência e 
+                sempre seguindo o nosso lema: “Serviços com `}<strong>Eficiência</strong>{`, `}<strong>Eficácia</strong>{` e`} <strong> Efetividade</strong>{`”, oferecemos o que realmente é necessário em cada caso específico, estudando-o para 
+                reduzir significativamente os gastos com produtos e serviços desnecessários, garantindo a solução no controle e `}<strong>eliminação das pragas e vetores</strong>{`.`}</p>
+            <img src={about} alt="Sobre nós"/>
+            </div>            
+        </div>
+        <div className="content-mvv">
                 <div className="mvv-child">
                     <div className="mvv-svg">
                         <svg id="mission-svg" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="6em"><title>target</title>
@@ -86,7 +90,6 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-            </div>
         </div>
         <div className="about-info">
             <div className="content-info">

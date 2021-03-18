@@ -41,7 +41,7 @@ function Navbar() {
 
     window.addEventListener('scroll', navScroll);
 
-    return (
+    return ( 
         <>  
             <nav className={navbar ? 'navbar scrolled' : 'navbar'} >
                 <div className="navbar-container container">

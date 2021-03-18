@@ -10,24 +10,18 @@ html{
   min-height: 100%;
 }
 
-/*.home{
-  background-image: url('./imgs/header2.png');
-  background-position: center;
+.home{
+  background-image: url('./imgs/header3.png');
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-}*/
-.home{
+}
+/*.home{
   background: rgb(1,41,61);
   background: -moz-linear-gradient(60deg, rgba(1,41,61,1) 0%, rgba(0,53,80,1) 100%);
   background: -webkit-linear-gradient(60deg, rgba(1,41,61,1) 0%, rgba(0,53,80,1) 100%);
   background: linear-gradient(60deg, rgba(1,41,61,1) 0%, rgba(0,53,80,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01293d",endColorstr="#003550",GradientType=1);
-}
-
-
-
-.test{
-  background: white;
-}
+}*/
 
 

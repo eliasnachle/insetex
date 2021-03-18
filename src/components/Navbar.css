@@ -150,19 +150,11 @@
       color: #363636;
       font-size: 1.2em;
       font-weight: 700;
-      text-align: center;
-      padding: 2rem;
+      text-align: left;
+      padding: 0.5rem;
       width: 90%;
       display: table;
       margin: 2rem auto;
-    }
-  
-    .nav-links:hover {
-      margin: 2rem auto;
-      border-radius: 5px;
-      width: 90%;
-      background: var(--primary);
-      color: var(--white);
     }
   
     .navbar-logo {
@@ -191,16 +183,15 @@
     .nav-links-mobile {
       display: block;
       text-align: center;
-      padding: 1.3em;
+      padding: 1.1em;
       margin: 2rem auto;
-      border-radius: 5em;
+      border-radius: 7px;
       width: 80%;
-      background-image: linear-gradient(-130deg, rgba(48,173,237,1) 0%, rgb(14, 101, 167) 100%);
-      background-position: 100% 0;
-      background-size: 200% 200%;
+      background: var(--primary);
       text-decoration: none;
       color: var(--white);
-      font-size: 0.95em;
+      font-size: 1em;
+      font-family: 'Nunito Sans',sans-serif;
       letter-spacing: 1px;
       transition: background 0.5s ease-out;
     }

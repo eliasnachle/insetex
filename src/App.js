@@ -13,6 +13,7 @@ import Descupinizacao                             from './components/pages/descu
 import Desentupimento                             from './components/pages/desentupimento';
 import Limpeza                                    from './components/pages/limpeza';
 import Client                                     from './components/pages/client';
+import Orcamento                                  from './components/pages/orcamento';
 
 function App() {
 
@@ -59,6 +60,11 @@ function App() {
           <NavbarScrolled />
           <Client />
           <Footer/>
+        </Route>
+        <Route exact path='/contato/orcamento'>
+          <NavbarScrolled />
+          <Orcamento />
+          <Footer />
         </Route>
         <Route exact path='/'>
           <Navbar />

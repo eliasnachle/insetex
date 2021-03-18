@@ -5,7 +5,7 @@ import './child.css';
 
 
 export default function Contact() {
-    return(
+    return( 
         <>
         <div className="container-contact">
             <div className="contact-icons">
@@ -48,7 +48,7 @@ export default function Contact() {
                 <h1>Fale Conosco</h1>
                 <p>Nossa equipe está pronta para te oferecer o melhor em dedetização.</p>
                 <Link>Fale Conosco</Link>
-                <Link>Orçamento</Link>
+                <Link to='/contato/orcamento'>Orçamento</Link>
             </div>
             <div className="contact-img">
                 <img src={supportt} width="150em" alt="Suporte" />

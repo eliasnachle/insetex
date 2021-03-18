@@ -7,7 +7,6 @@ import Cbutton          from './button-contact';
 import '../../App.css';
 import './home.css';
 import Whatsapp       from '../whatsapp';
-import homee          from '../../imgs/home.svg';
 
 const ColorPrimary = "rgba(0,156,255.57)";
 const useStyles = makeStyles((theme) => ({
@@ -44,7 +43,6 @@ export default function Home() {
                         that you love`}</p>
                         <button className='btn-home'>SAIBA MAIS</button>
                     </div>
-                    <img src={homee} alt="Imagem"/>
                 </div>
              </div>
             <div className='test'>  

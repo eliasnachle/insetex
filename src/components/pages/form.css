@@ -1,0 +1,210 @@
+/*Step1*/
+.form-group, .form-bot, .form-top{display: block;text-align:left;margin-bottom:0.35rem;}
+.container-form{
+    padding: 5em 2em;
+    display: grid;
+    justify-content: center;
+}
+.orcamento-form{max-width: 45em;}
+.form-top, .form-bot{display: inline-flex;}
+.form-group{    
+    margin-right: 8em;
+    margin-bottom: 2.5em;
+}
+.form-bottom{display: grid;}
+.form-bottom, .form-group > label{
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.form-bottom > input{
+    width: 44.7em; 
+    padding: 1.05em;
+    border-radius: 7px;
+    border: 1px solid var(--darkblue);
+    font-weight: 700;
+    font-size: 1.05em;
+}
+.orcamento-input{
+    padding: 1em;
+    border-radius: 7px;
+    border: 1px solid var(--darkblue);
+    width: 18em;
+    font-weight: 700;
+    font-size: 0.95em;
+}
+/*Step2*/
+.form-check > h2{
+    font-size: 1.05em;
+    letter-spacing: 0.4px;
+    font-size: 1.05em;
+    letter-spacing: 0.4px;
+    margin-bottom: 0.2rem;
+    text-align: left;
+}
+.container-check{
+    text-align: left;
+    margin-left: 3em;
+    margin-bottom: 1.8em;
+    margin-top: 0.5em;
+}
+.content-check{
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+input,span,label{cursor: pointer;text-align:left;}
+.form-label > span{
+    color: var(--lightblue);
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+.inline{display:inline-block;}
+/*Custom Checkbox*/
+.form-checkbox{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 3px;
+    background: var(--darkblue);
+    outline: none;
+    transition: 0.2s all;
+}
+.form-checkbox:checked~.form-span{
+    color: var(--primary);
+}
+.form-checkbox:checked{
+    content: "";
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../imgs/check.png);
+    background-size: contain;
+    background-color: var(--primary);
+    color: var(--primary);
+}
+/*Checkbox Residencial*/
+.checkbox-residencial{
+    appearance: none;
+    height: 80px;
+    width: 150px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid var(--darkblue);
+    background-image: url(../../icons/residencial_svg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s  all;
+}
+.checkbox-residencial:checked{
+    background-image: url(../../icons/residencial_active_svg.svg);
+    border: 2px solid var(--primary);
+}
+.checkbox-residencial:checked~span{
+    color: var(--primary);
+}
+.checkbox-residencial~span{
+    color: var(--darkblue);
+    font-size: 1.1em;
+    display: block;
+    text-align: center;
+}
+/*Checkbox Comercial*/
+.checkbox-comercial{
+    appearance: none;
+    height: 80px;
+    width: 150px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid var(--darkblue);
+    background-image: url(../../icons/comercial_svg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.3s  all;
+}
+.checkbox-comercial:checked{
+    background-image: url(../../icons/comercial_active_svg.svg);
+    border: 2px solid var(--primary);
+}
+.checkbox-comercial~span{
+    color: var(--darkblue);
+    font-size: 1.1em;
+    display: block;
+    text-align: center;
+}
+.checkbox-comercial:checked~span{
+    color: var(--primary);
+}
+.textarea > label{
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.textarea > textarea{
+    padding: 1em;
+    border-radius: 7px;
+    border: 1px solid var(--darkblue);
+    width: 55em;
+    font-weight: 700;
+    font-size: 0.95em;
+}
+/*Steps*/
+.content-steps {
+    display: flex;
+    padding-bottom: 2em;
+}
+.step-item {
+    margin-right: 6em;
+    display: inline-block;
+}
+.item-steps{
+    background: var(--darkblue);
+    color: var(--white);
+    font-size: 0.9em;
+    font-weight: 700;
+    padding: 1px 7px;
+    border-radius: 5px;
+}
+.text-steps{
+    color: var(--darkblue);
+    font-weight: 700;
+    margin-left: 10px;
+    letter-spacing: 0.5px;
+}
+.present-text{color:var(--primary);}
+.past-text{color:var(--darkblue);}
+.future-text{color:var(--lightblue);}
+.present{background:var(--primary);}
+.past{background:var(--darkblue);}
+.future{background:var(--lightblue);}
+/*Botões*/
+.form-btns {
+    padding: 2em 0;
+    margin-left: 22.7em;
+}
+.orcamento-prev{
+    color: var(--primary);
+    font-size: 1em;
+    font-weight: 700;
+    margin-right: 2em;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.orcamento-next{
+    background: var(--primary);
+    color: var(--white);
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 7px;
+    width: 12em;
+    cursor: pointer;
+    outline: none;
+}
