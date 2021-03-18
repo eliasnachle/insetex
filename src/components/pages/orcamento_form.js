@@ -1,5 +1,4 @@
 import React, { Component }         from 'react';
-import Steps                        from './steps';
 import StepDados                    from './stepDados';
 import StepDetails                  from './stepDetails';
 import StepConclusion               from './stepConclusion';
