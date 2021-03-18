@@ -32,6 +32,7 @@
     width: 18em;
     font-weight: 700;
     font-size: 0.95em;
+    outline: none;
 }
 /*Step2*/
 .form-check > h2{
@@ -150,6 +151,7 @@ input,span,label{cursor: pointer;text-align:left;}
     width: 55em;
     font-weight: 700;
     font-size: 0.95em;
+    outline: none;
 }
 /*Steps*/
 .content-steps {
@@ -207,4 +209,7 @@ input,span,label{cursor: pointer;text-align:left;}
     width: 12em;
     cursor: pointer;
     outline: none;
+}
+.left{
+    margin-left: 27.7em;
 }
